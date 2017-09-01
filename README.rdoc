@@ -7,4 +7,6 @@ Install
 3. bundle
 4. rake db:create
 5. rake db:migrate
-6. whenever --update-crontab store
+6. Open file (config/initializers/checking_status_site.rb)
+7. Edit file => "YOUR E-MAIL"
+8. whenever --update-crontab store
